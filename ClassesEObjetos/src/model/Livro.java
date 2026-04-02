@@ -1,9 +1,16 @@
 package model;
 
 public class Livro {
-	public int isbn;
-	public String nome;
-	public String autor;
-	public String editora;
+	private int isbn;
+	private String nome;
+	private String autor;
+	private String editora;
+	
+	public Livro (int isbn,String nome, String autor, String editora) {
+		this.isbn = isbn;
+		this.nome = nome;
+		this.autor = autor;
+		this.editora = editora;
+	}
 
 }

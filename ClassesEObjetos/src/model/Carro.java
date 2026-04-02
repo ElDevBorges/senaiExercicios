@@ -1,12 +1,12 @@
 package model;
 
 public class Carro {
-	public String fabricante;
-	public String modelo;
-	public String cor;
-	public String ano;
+	private String fabricante;
+	private String modelo;
+	private String cor;
+	private String ano;
 	
-	public void montarCarro (String fabricante, String modelo, String cor, String ano) {
+	public Carro (String fabricante, String modelo, String cor, String ano) {
 		this.fabricante = fabricante;
 		this.modelo = modelo;
 		this.cor = cor;
