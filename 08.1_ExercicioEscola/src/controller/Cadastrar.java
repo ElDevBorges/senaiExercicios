@@ -11,8 +11,6 @@ import model.Aluno;
 public class Cadastrar {
     List<Aluno> listaAluno = new ArrayList<>();
 
-    Aluno aluno = new Aluno (aluno_nome, aluno_telefone, aluno_cpf, aluno_data_nascimento_formatado, aluno_matricula);
-
 
 
 }
