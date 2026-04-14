@@ -19,7 +19,7 @@ public class Main {
         for (int i = 0; i < 2; i++) {
             aluno.criarAluno();
             if (i == 1) {
-                for (i = 0; 1 <= 2; i++) {
+                for (i = 0; 1 <= 1; i++) {
                     aluno.mostrarAluno(i);
                 }
             }
